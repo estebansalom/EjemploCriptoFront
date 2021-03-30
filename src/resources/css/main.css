@@ -1,0 +1,182 @@
+.register-user__container--base {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center; }
+
+.login__container--base {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center; }
+
+.form__container--base {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center; }
+
+.form__title--base {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem; }
+
+.form__input-holder--base {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 10px;
+  margin: 10px 0px;
+  justify-content: center; }
+
+.chat-input__container--base {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 10%; }
+
+.chat-input__input--base {
+  width: 80%;
+  padding: 10px; }
+
+.chat-input__button--base {
+  width: 20%; }
+
+.conversation__container--base {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center; }
+
+.conversation__message-holder--base {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  background-color: aliceblue; }
+
+.header__container--base {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.header__logo--base {
+  width: 10%;
+  height: 100%;
+  background-image: url("https://www.pngarts.com/files/1/Message-PNG-Image-with-Transparent-Background.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.header__button-group--base {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10%; }
+
+.header__button-group--logged {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 10%; }
+
+.header__button--base {
+  height: 100%;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: #0e3144;
+  text-decoration: none;
+  font-size: 1.5rem; }
+
+@media (max-width: 890px) {
+  .header__container--base {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+  .header__logo--base {
+    width: 15%;
+    height: 100%;
+    background-image: url("https://www.pngarts.com/files/1/Message-PNG-Image-with-Transparent-Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5%; }
+  .header__button-group--base {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10%; }
+  .header__button-group--logged {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10%; }
+  .header__button--base {
+    height: 100%;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #0e3144;
+    text-decoration: none;
+    font-size: 1.2rem; } }
+
+* {
+  box-sizing: content-box; }
+
+html, body, #root, .App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
+.App {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center; }
+
+button {
+  background-color: #2DACF0;
+  color: #FFFFFF;
+  padding: 10px; }
+  button:hover {
+    background-color: #48b4ee;
+    color: #FFFFFF; }
+
+input {
+  padding: 5px; }

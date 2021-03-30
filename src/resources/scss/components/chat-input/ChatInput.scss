@@ -1,0 +1,25 @@
+.chat-input{
+    &__container{
+        &--base{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            align-items: center;
+            width: 100%;
+            height: 10%;
+        }
+    }
+
+    &__input{
+        &--base{
+            width: 80%;
+            padding: 10px;
+        }
+    }
+
+    &__button{
+        &--base{
+            width: 20%;
+        }
+    }
+}
